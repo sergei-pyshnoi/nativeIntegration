@@ -1,4 +1,4 @@
-git_url("https://github.com/yaradigitallabs/sh-usermanagement-certificate.git")
+git_url("https://github.com/LayMui/AwesomeProject-certificate.git")
 
 storage_mode("git")
 
@@ -6,8 +6,6 @@ type("development") # The default type, can be: appstore, adhoc, enterprise or d
 
 app_identifier(ENV["APP_ID"])
 username(ENV["APPLE_ID"]) # Your Apple Developer Portal username
-
-
 # For all available options run `fastlane match --help`
 # Remove the # in the beginning of the line to enable the other options
 
