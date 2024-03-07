@@ -1,0 +1,185 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "assets/fonts/NotoSans-Black.ttf",
+      "sha1": "e573565d4829bd966517ffb55d265028d756ef69"
+    },
+    {
+      "path": "assets/fonts/NotoSans-Bold.ttf",
+      "sha1": "e0b549baa4f395afb1b5abbb19a965b8ed77d287"
+    },
+    {
+      "path": "assets/fonts/NotoSans-Medium.ttf",
+      "sha1": "56d6ccefdeed199d0f5aa1507e40eff7daf0178a"
+    },
+    {
+      "path": "assets/fonts/NotoSans-Regular.ttf",
+      "sha1": "a456ba4111c804aa5f1722dcf8658ea94b9f19b4"
+    },
+    {
+      "path": "assets/fonts/NotoSans-SemiBold.ttf",
+      "sha1": "bcb11a636f874e680ac6079f7cbcd080970d8e39"
+    },
+    {
+      "path": "assets/fonts/NotoSansBengaliUI-Black.ttf",
+      "sha1": "e3517e71a144375b92cbddcd5b520e47529b3f14"
+    },
+    {
+      "path": "assets/fonts/NotoSansBengaliUI-Bold.ttf",
+      "sha1": "81d7ed39608cfb2adcd09134523e40eefac39ebf"
+    },
+    {
+      "path": "assets/fonts/NotoSansBengaliUI-Medium.ttf",
+      "sha1": "35c5d648c8ece215a2db663358880d78e1a1a8e1"
+    },
+    {
+      "path": "assets/fonts/NotoSansBengaliUI-Regular.ttf",
+      "sha1": "f2e2c993b199aab8e8bf87e8e42a0c93a73857df"
+    },
+    {
+      "path": "assets/fonts/NotoSansBengaliUI-SemiBold.ttf",
+      "sha1": "f27746ddc45d7aeb1e282be0794211481576db6a"
+    },
+    {
+      "path": "assets/fonts/NotoSansDevanagariUI-Black.ttf",
+      "sha1": "0e77f484c8281d4326da57a644ab52b1d9432111"
+    },
+    {
+      "path": "assets/fonts/NotoSansDevanagariUI-Bold.ttf",
+      "sha1": "3ae3e230f3b27bea754e3bfea768f270914c97a7"
+    },
+    {
+      "path": "assets/fonts/NotoSansDevanagariUI-Medium.ttf",
+      "sha1": "6bf77412d2f96d220a8eadf5cb05d697e7b57732"
+    },
+    {
+      "path": "assets/fonts/NotoSansDevanagariUI-Regular.ttf",
+      "sha1": "dbf31674f5fed1bd6dd2e76d764aa81bcc1c6e7e"
+    },
+    {
+      "path": "assets/fonts/NotoSansDevanagariUI-SemiBold.ttf",
+      "sha1": "504bb7e5da5ce72648a81690464b5334cb7222bc"
+    },
+    {
+      "path": "assets/fonts/NotoSansGujaratiUI-Black.ttf",
+      "sha1": "86d1836acf47947ef19ed16a80912b6385275ea3"
+    },
+    {
+      "path": "assets/fonts/NotoSansGujaratiUI-Bold.ttf",
+      "sha1": "335d2b26ed1d258fe0f60a886444c91ddd2130d8"
+    },
+    {
+      "path": "assets/fonts/NotoSansGujaratiUI-Medium.ttf",
+      "sha1": "7d322154a4ca67b6dd51060ce03953f50b4b4d5c"
+    },
+    {
+      "path": "assets/fonts/NotoSansGujaratiUI-Regular.ttf",
+      "sha1": "593b4deb82a75119bb82f2bee2933cfaee02cefb"
+    },
+    {
+      "path": "assets/fonts/NotoSansGujaratiUI-SemiBold.ttf",
+      "sha1": "718e757437b832e3b6292728cfc695618e01137e"
+    },
+    {
+      "path": "assets/fonts/NotoSansGurmukhiUI-Black.ttf",
+      "sha1": "36b6220fc52b73b34237072a6cac2ae92edba074"
+    },
+    {
+      "path": "assets/fonts/NotoSansGurmukhiUI-Bold.ttf",
+      "sha1": "4ea06491b0f5dd110e74fbab4eacbc25e75f1068"
+    },
+    {
+      "path": "assets/fonts/NotoSansGurmukhiUI-Medium.ttf",
+      "sha1": "9a73dd31481dce13e293a52471d3634ff538e5c0"
+    },
+    {
+      "path": "assets/fonts/NotoSansGurmukhiUI-Regular.ttf",
+      "sha1": "acb25932609e95e8aa8a66509578cba20459ce5e"
+    },
+    {
+      "path": "assets/fonts/NotoSansGurmukhiUI-SemiBold.ttf",
+      "sha1": "2192a11dc58927f5b1d294e07fa2e1c911f13b49"
+    },
+    {
+      "path": "assets/fonts/NotoSansKannadaUI-Black.ttf",
+      "sha1": "ca111f585797235e7e5c99965873baf4907a8ea1"
+    },
+    {
+      "path": "assets/fonts/NotoSansKannadaUI-Bold.ttf",
+      "sha1": "c3dc116cfdd5406e30f8ec450340c30c25ec2605"
+    },
+    {
+      "path": "assets/fonts/NotoSansKannadaUI-Medium.ttf",
+      "sha1": "a87c98e13cba5c542c26ba118747298c6d50da1a"
+    },
+    {
+      "path": "assets/fonts/NotoSansKannadaUI-Regular.ttf",
+      "sha1": "3941d49ff63501171f51564b815617d177038635"
+    },
+    {
+      "path": "assets/fonts/NotoSansKannadaUI-SemiBold.ttf",
+      "sha1": "91f11c8ae9bf90530bb1dd0475bd2c8d98b9301e"
+    },
+    {
+      "path": "assets/fonts/NotoSansTamilUI-SemiCondensed.ttf",
+      "sha1": "e18424e7a4772b06c4d23253b8cfcda60a293ca4"
+    },
+    {
+      "path": "assets/fonts/NotoSansTamilUI-SemiCondensedBlack.ttf",
+      "sha1": "abc58ffb34d838ae18e8f87eb109c2f61379766a"
+    },
+    {
+      "path": "assets/fonts/NotoSansTamilUI-SemiCondensedBold.ttf",
+      "sha1": "87c0d90e3d7dc99097538ea6844e8a48fe4760a8"
+    },
+    {
+      "path": "assets/fonts/NotoSansTamilUI-SemiCondensedMedium.ttf",
+      "sha1": "facfa734fb30e0221a155b9c694860de3adbcf37"
+    },
+    {
+      "path": "assets/fonts/NotoSansTamilUI-SemiCondensedSemiBold.ttf",
+      "sha1": "888762f9b9524fd60c0ee18772fef169b56df0e6"
+    },
+    {
+      "path": "assets/fonts/NotoSansTeluguUI-Black.ttf",
+      "sha1": "c08340549b3b1280c45909e808f4ae88f2c2514e"
+    },
+    {
+      "path": "assets/fonts/NotoSansTeluguUI-Bold.ttf",
+      "sha1": "0ffe70b5f678e4729f9707574149340147e78404"
+    },
+    {
+      "path": "assets/fonts/NotoSansTeluguUI-Medium.ttf",
+      "sha1": "0a975fe3d2a9d4aa10f2e9921585136e349ca9a8"
+    },
+    {
+      "path": "assets/fonts/NotoSansTeluguUI-Regular.ttf",
+      "sha1": "f504078b659d320bd545cb6470b2db0ab2c04159"
+    },
+    {
+      "path": "assets/fonts/NotoSansTeluguUI-SemiBold.ttf",
+      "sha1": "0263132da2983c8b1ca0a9dbb5b8f4eb8fdd9121"
+    },
+    {
+      "path": "assets/fonts/NotoSansThaiUI-Black.ttf",
+      "sha1": "291fc1639ec2aeef60b19fa2fa96b5562fa3f272"
+    },
+    {
+      "path": "assets/fonts/NotoSansThaiUI-Bold.ttf",
+      "sha1": "f410e8029651e27cb522a8323403678c9b9aca9f"
+    },
+    {
+      "path": "assets/fonts/NotoSansThaiUI-SemiBold.ttf",
+      "sha1": "83c505d35073e472f723710525934fc123f68b93"
+    },
+    {
+      "path": "assets/fonts/NotoSerifThai-Medium.ttf",
+      "sha1": "131f0648a067760b5c6bfd4cfe467ddbccf59be0"
+    },
+    {
+      "path": "assets/fonts/NotoSerifThai-Regular.ttf",
+      "sha1": "f1f2e16a4d9d22db493a1973e0b3b056d8fd08a6"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+branchConventionRegexp="^CST-[0-9]{3,8}.*"
+
+currentBranch="$(git rev-parse --abbrev-ref HEAD)"
+
+if [[ $currentBranch =~ master|develop|dev ]]; then
+  echo "-"
+  echo "-"
+  echo "-"
+  echo "🚨 \033[1;31m Restricted branch commit violation 😕"
+  echo "Please don't commit directly to the master or develop(dev) branch."
+  echo "Direct commit to those branches are restricted."
+  echo "-"
+  echo "Your did commit to the branch:"
+  echo $currentBranch
+  echo "-"
+  echo "For more information about validation, check script in .husky/commit-msg"
+  echo "-"
+  exit 1
+fi;
+
+if ! [[ $currentBranch =~ $branchConventionRegexp ]]; then
+  echo "-"
+  echo "-"
+  echo "-"
+  echo "🚨 \033[1;31m Wrong branch name! 😕"
+  echo "The branch name must have this format:"
+  echo "<Jira task number>"
+  echo "Example: CST-1234"
+  echo "-"
+  echo "Your branch name was:"
+  echo $currentBranch
+  echo "-"
+  echo "For more information about validation, check script in .husky/commit-msg"
+  echo "-"
+  exit 1
+fi;

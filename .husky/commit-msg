@@ -1,0 +1,28 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+message="$(cat $1)";
+messageConventionRegexp="^CST-[0-9]{3,8}:.{3,}"
+mergeKeyword="Merge"
+
+if [[ $message == *"$mergeKeyword"* ]]; then
+  echo "Skipping commit validation for automatic merge commit."
+  exit 0;
+fi;
+
+if ! [[ $message =~ $messageConventionRegexp ]]; then
+  echo "-="
+  echo "-"
+  echo "-"
+  echo "🚨 \033[1;31m Wrong commit message! 😕"
+  echo "The commit message must have this format:"
+  echo "<Jira task number>: <short description what was done>"
+  echo "Example: CST-1234: add validation"
+  echo "-"
+  echo "Your commit message was:"
+  echo $message
+  echo "-"
+  echo "For more information about validation, check script in .husky/pre-commit"
+  echo "-"
+  exit 1
+fi;

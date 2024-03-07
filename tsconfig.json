@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "target": "es2020",
+    "types": ["node", "webdriverio/async", "@wdio/cucumber-framework", "expect-webdriverio", "@wdio/globals/types", "jquery"],
+    "esModuleInterop": true,
+    "module": "commonjs",
+    "allowJs": true
+  },
+  "moduleResolution": "node"
+}

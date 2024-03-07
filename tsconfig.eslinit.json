@@ -1,0 +1,11 @@
+{
+  "extends": "./tsconfig",
+  "include": [
+    "tests/features/**/*.ts",
+    "tests/src/**/*.ts",
+    "config/wdio.conf.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
