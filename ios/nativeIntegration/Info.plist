@@ -26,10 +26,10 @@
 			<key>CFBundleTypeRole</key>
 			<string>Editor</string>
 			<key>CFBundleURLName</key>
-			<string>com.yara.usermanagement.testapp</string>
+			<string>com.laymui.usermanagement.testapp</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>com.yara.usermanagement.testapp</string>
+				<string>com.laymui.usermanagement.testapp</string>
 			</array>
 		</dict>
 		<dict>
