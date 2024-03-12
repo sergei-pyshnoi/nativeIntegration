@@ -653,10 +653,10 @@
 					"-lc++",
 					"$(inherited)",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.yara.usermanagement.testapp;
+				PRODUCT_BUNDLE_IDENTIFIER = testapp.AwesomeProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "match Development com.yara.usermanagement.testapp";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "match Development testapp.AwesomeProject";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/nativeIntegration.app/nativeIntegration";
 			};
 			name = Debug;
@@ -683,10 +683,10 @@
 					"-lc++",
 					"$(inherited)",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.yara.usermanagement.testapp;
+				PRODUCT_BUNDLE_IDENTIFIER = testapp.AwesomeProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "match AdHoc com.yara.usermanagement.testapp";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "match AdHoc testapp.AwesomeProject";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/nativeIntegration.app/nativeIntegration";
 			};
 			name = Release;
@@ -715,10 +715,10 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.yara.usermanagement.testapp;
+				PRODUCT_BUNDLE_IDENTIFIER = testapp.AwesomeProject;
 				PRODUCT_NAME = nativeIntegration;
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "match Development com.yara.usermanagement.testapp";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "match Development testapp.AwesomeProject";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -747,10 +747,10 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.yara.usermanagement.testapp;
+				PRODUCT_BUNDLE_IDENTIFIER = testapp.AwesomeProject;
 				PRODUCT_NAME = nativeIntegration;
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "match AdHoc com.yara.usermanagement.testapp";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "match AdHoc testapp.AwesomeProject";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};

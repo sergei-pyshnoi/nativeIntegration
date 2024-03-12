@@ -26,10 +26,10 @@
 			<key>CFBundleTypeRole</key>
 			<string>Editor</string>
 			<key>CFBundleURLName</key>
-			<string>com.laymui.usermanagement.testapp</string>
+			<string>testapp.AwesomeProject</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>com.laymui.usermanagement.testapp</string>
+				<string>com..usermanagement.testapp</string>
 			</array>
 		</dict>
 		<dict>
@@ -47,8 +47,8 @@
 	<string>$(CURRENT_PROJECT_VERSION)</string>
 	<key>LSApplicationQueriesSchemes</key>
 	<array>
-		<string>https://com.yara.usermanagement.testapp</string>
-		<string>com.yara.usermanagement.testapp</string>
+		<string>https://testapp.AwesomeProject</string>
+		<string>testapp.AwesomeProject</string>
 	</array>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
