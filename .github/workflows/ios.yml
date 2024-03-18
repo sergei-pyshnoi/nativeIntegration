@@ -6,7 +6,7 @@ on:
 jobs:
   run_e2e_tests_on_ios:
     name: run e2e test on ios
-    runs-on: macos-14
+    runs-on: macos-13
     strategy:
       matrix:
         node-version: [ 18.17.1 ]
