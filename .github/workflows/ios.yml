@@ -73,6 +73,7 @@ jobs:
          
         - name: Fastlane
           run: |
+            sudo chown -R $(whoami) /Users/
             gem update --system 3.5.6
             bundle install
             bundle exec fastlane testandbuild 
