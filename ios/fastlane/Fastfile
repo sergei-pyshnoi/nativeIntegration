@@ -24,7 +24,6 @@ platform :ios do
   desc "Description of what the lane does"
 
   lane :testandbuild do
-    disable_automatic_code_signing(path: "nativeIntegration.xcodeproj")
     match(type:  "adhoc", readonly: is_ci, force_for_new_devices: true,
     app_identifier: ENV["APP_ID"])
     gym(export_method: "ad-hoc", scheme: "nativeIntegration")
