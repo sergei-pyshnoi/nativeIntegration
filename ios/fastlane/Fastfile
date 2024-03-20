@@ -26,7 +26,7 @@ platform :ios do
   lane :testandbuild do
     match(type:  "adhoc", readonly: is_ci, force_for_new_devices: true,
     app_identifier: ENV["APP_ID"])
-    gym(export_method: "ad-hoc", scheme: "nativeIntegration")
+    gym(export_method: "ad-hoc", scheme: "nativeIntegration", skip_codesigning: "true")
   end
 
 
